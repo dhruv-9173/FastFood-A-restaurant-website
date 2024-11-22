@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Fast Food</title>
+    <link rel="stylesheet" href="restaurant.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <p id="name">Fast Food</p>
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Search..." class="search-bar">
+        </div>
+        <div class="header-right">
+            <img src="images.png" alt="User   Profile" class="profile-image">
+            <div class="dropdown-content">
+                <img src="images.png" alt="" height="200" width="200" style="display: flex; margin: auto; border: 2px solid blue; border-radius: 50%;">
+                <p style="text-align: center; font-weight: bolder; font-family: 'Times New Roman', Times, serif; font-size: 30px;">Name</p>
+            </div>
+            <button class="add-to-cart"><img src="cart.jpg" alt="cart"></button>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="restaurant_home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="section-title"><h2>About Us</h2></div>
+        <hr>
+        <div class="about-content">
+            <p>Welcome to Fast Food, your number one source for delicious and quick meals! We are dedicated to providing you with the best fast food experience, with a focus on dependability, customer service, and quality.</p>
+            <p>Founded in 2023, Fast Food has come a long way from its beginnings. When we first started out, our passion for fast food drove us to do tons of research so that Fast Food can offer you the most delicious meals. We now serve customers all over the country and are thrilled to be a part of the quirky wing of the fast food industry.</p>
+            <p>We hope you enjoy our meals as much as we enjoy offering them to you. If you have any questions or comments, please don't hesitate to contact us.</p>
+        </div>
+
+        <div class="contact-section">
+            <h2>Contact Us</h2>
+            <form action="submit_contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="#about">About Us</a></li>
+               
+                <li><a href="about.html">Contact</a></li>
+                
+            </ul>
+            <div class="footer-text">
+                &copy; 2023 Fast Food. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

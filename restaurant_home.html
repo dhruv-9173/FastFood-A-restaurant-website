@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fast Food</title>
+    <link rel="stylesheet" href="restaurant.css">
+    <script>
+        function fun()
+        {
+            alert("Order Placed");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <p id="name">Fast Food</p>
+        </div>
+        <div class="header-center">
+            <input type="text" placeholder="Search..." class="search-bar">
+        </div>
+        <div class="header-right">
+            <div class="profile-container">
+                <img src="images.png" alt="User  Profile" class="profile-image">
+                
+                    <div class="dropdown-content">
+                        <img src="images.png" alt="" height="200" width="200"
+                         style="display: flex; margin: auto; border: 2px solid blue; border-radius: 50%;">
+                        <p style="text-align: center; font-weight: bolder; font-family: 'Times New Roman', Times, serif; font-size: 30px;">
+                            Name</p>
+                        <a href="login.html" style="background-color: blue; border-radius: 10px; border: 0 ; width: 50%; 
+                        height: 30px;text-align: center;align-content: center; color: white;">Log in </a> 
+                        or 
+                        <a href="login.html" style="background-color: blue;
+                         border-radius: 10px; border: 0 ; width: 50%; 
+                         height: 30px; text-align: center; 
+                         align-content: center; color: white;">Sign Up</a>
+                    </div>
+                 
+            </div>
+            <button class="add-to-cart"><img src="cart.jpg" alt="cart"></button>
+        </div>
+    </header>
+    <div class="navbar">
+        <ul>
+            <li><a href="restaurant_home.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <div class="image-container">
+        <img src="AdobeStock_282247995-scaled.jpeg" alt="Delicious Fast Food">
+        <div class="image-text"><p style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Fast Food restaurant</p>
+        </div>
+    </div>
+    
+    <main>
+       
+        <div class="section-title"><h2>Favorites</h2></div>
+        <hr>
+        <div class="card-container">
+            <div class="card">
+                <img src="AdobeStock_282247995-scaled.jpeg" alt="Cheeseburger">
+                <h3>Cheeseburger</h3>
+                <p class="price">Rs. 249</p>
+                <div class="order"><a href="" onclick="fun()" style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="fries.jpg" alt="French Fries">
+                <h3>French Fries</h3>
+                <p class="price">Rs. 120</p>
+                <div class="order" ><a href="#" onclick="fun()" style="text-decoration: none; color: black;"><p >Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="pizza.jpg" alt="Margherita Pizza">
+                <h3>Margherita Pizza</h3>
+                <p class="price">Rs. 399</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="hotdog.jpg" alt="Hot Dog">
+                <h3>Hot Dog</h3>
+                <p class="price">Rs.49</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="onionrings.jpg" alt="Onion Rings">
+                <h3>Onion Rings</h3>
+                <p class="price">Rs. 60</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+          
+           
+            
+        </div>
+
+        <hr>
+        <div class="section-title"><h2>Speciality</h2></div>
+        <hr>
+        <div class="card-container">
+            <div class="card">
+                <img src="sushi.jpg" alt="Sushi">
+                <h3>Sushi</h3>
+                <p class="price">Rs. <s>110</s> 90</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="taco.jpg" alt="Taco">
+                <h3>Taco</h3>
+                <p class="price">Rs. <s>80</s> 60 </p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="chickenwings.jpg" alt="Chicken Wings">
+                <h3>Chicken Wings</h3>
+                <p class="price">Rs.399</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="ramen.jpg" alt="Ramen">
+                <h3>Ramen</h3>
+                <p class="price">Rs. 199</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+           
+           
+            <div class="card">
+                <img src="pizza.jpg" alt="Pho">
+                <h3>Pizza</h3>
+                <p class="price">Rs.349</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+          
+        </div>
+        <hr>
+        <div class="section-title"><h2>Discounts And Offers</h2></div>
+        <hr>
+        <div class="card-container">
+            <div class="card">
+                <img src="sushi.jpg" alt="Sushi">
+                <h3>Sushi</h3>
+                <p class="price"> Rs. <s>110</s> 90</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+            <div class="card">
+                <img src="taco.jpg" alt="Taco">
+                <h3>Taco</h3>
+                <p class="price">Rs. <s>80</s> 60</p>
+                <div class="order"><a href="#" onclick="fun()"  style="text-decoration: none; color: black;"><p>Order Now</p></a></div>
+            </div>
+          
+          
+        </div>
+        <hr>
+    </main>
+    
+    <footer>
+        <div class="footer-content">
+            <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="about.html">Contact</a></li>
+                
+            </ul>
+            <div class="footer-text">
+                &copy; 2023 Fast Food. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
